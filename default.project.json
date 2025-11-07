@@ -1,0 +1,31 @@
+{
+  "name": "Rojo_Template",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "$path": "src/server",
+      "ServerPackages": {
+        "$path": "ServerPackages"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client/Player"
+      },
+      "StarterCharacterScripts": {
+        "$path": "src/client/Character"
+      }
+    }
+  }
+}
